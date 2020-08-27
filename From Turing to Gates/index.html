@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Turing to Gates</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        #contianer{
+            margin: 35px;
+            text-align: center;
+        }
+        .foto{
+            width: 1200px;
+            height: 200px;
+        }
+        .m{
+            overflow: hidden;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contianer">
+        <div class="m">
+            <img src="1a.jpg" alt="a1" class="foto">
+            <img src="1b.jpg" alt="b1" class="foto">
+        </div>  
+        <div class="m"> 
+            <img src="2a.jpg" alt="a2" class="foto">
+            <img src="2b.jpg" alt="b2" class="foto">
+        </div>
+        <div class="m">
+            <img src="3a.jpg" alt="a3" class="foto">
+            <img src="3b.jpg" alt="b3" class="foto">
+        </div>
+    </div>
+    <script>
+         $(document).ready(function(){
+            
+            $('img').click(function(){
+            if (($('img').attr('alt')) == 'a1') {
+                $(this).hide()
+
+            }
+            else if(($('img').attr('alt')) == 'a2') {
+                $(this).hide()
+            }
+             else {
+                $(this).hide()
+             }
+                
+
+            })
+
+         });
+
+    </script>
+</body>
+</html>
+
+
