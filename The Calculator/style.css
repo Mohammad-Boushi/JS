@@ -1,0 +1,65 @@
+*{
+/* border: solid indianred 1px; */
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 50px;
+}
+.display-class{
+    padding: 50px;
+}
+
+.container{
+    
+    text-align: center;
+    
+}
+.button{
+    border: 5px solid rgb(219, 219, 219);
+    padding: 10px;
+    margin-right: 00px;
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    margin-left: 350px;
+    
+}
+.but{height: 50px;
+    width: 50px;
+    margin: 1px;
+
+}
+
+.operations{
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+
+}
+
+/* .input{
+    height: 50px;
+} */
+
+#result{
+    padding-left: 15px;
+    padding-top: 7px;
+    width: 250px;
+    text-align: left;
+    margin-left: 11px;
+    
+}
+#final_result{
+    padding-left: 15px;
+    padding-top: 7px;
+    width: 250px;
+    text-align: left;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    
+}
